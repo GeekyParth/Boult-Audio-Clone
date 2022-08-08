@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search button new</title>
+    <link rel="stylesheet" href="../css/searchn.css">
+</head>
+
+<body >
+    <div id="body" class="body2">
+    <div class="main">
+        <img src="images/black-logo.webp" alt="">
+        <span>
+            <img src="images/search logo.webp" alt="">
+            <input type="search" placeholder="Search">
+            <div>
+                <img id="cross" src="images/cross image.webp" alt="" onclick="hide01()">
+            </div>
+        </span>
+    </div>
+    <div  class="list" >
+        <ul>
+            <li  id="op" >Popular Search Phrases</li><br>
+            <li>Xcharge</li><br>
+            <li>Gearpods</li><br>
+            <li>Soulpods</li><br>
+            <li>Truebuds</li><br>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    function hide01(){
+        let cr = document.getElementById('cross');
+        let bd = document.getElementById('body');
+        bd.style.display = 'none';
+    }
+</script>
+</html>
